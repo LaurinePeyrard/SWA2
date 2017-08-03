@@ -292,7 +292,7 @@ h5{
 
 #countdown{
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   color: #4fb167;
 }
@@ -308,6 +308,9 @@ h5{
 
   #hero{
     padding: 30px;
+    background: url('/assets/images/swa-color.jpg');
+    background-size: cover;
+    background-position: center center;
   }
 
   #date{
@@ -341,5 +344,9 @@ h5{
 
   #who{
     text-align: center;
+  }
+
+  #bronze{
+    display: block;
   }
 }
