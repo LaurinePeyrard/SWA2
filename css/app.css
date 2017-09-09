@@ -138,9 +138,18 @@ video {
   text-transform: uppercase;
   color: white;
   display: block;
-  font-size: 28px;
+  font-size: 13px;
   line-height: 35px;
 }
+
+.btn-row .btn{
+  margin-right: 15px;
+}
+
+.btn-row .btn:last-child{
+  margin-right: 15px;
+}
+  
 
 .btn{
   display: inline-block;
@@ -153,6 +162,16 @@ video {
   text-transform: uppercase;
   font-family: "Gotham Bold", Arial, sans-serif;
   font-size: 14px;
+  opacity: 0.85;
+}
+
+.btn:hover{
+  opacity: 1;
+  color: white;
+}
+
+.btn-dark{
+  background-color: #414141;
 }
 
 h1{
@@ -206,7 +225,6 @@ hr{
 }
 
 #roadmap .btn{
-  margin-right: 0;
   margin-top: 30px;
 }
 
