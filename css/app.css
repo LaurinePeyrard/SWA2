@@ -95,6 +95,10 @@ video {
   overflow: hidden;
 }
 
+#hero .btn{
+  opacity: 1;
+}
+
 #logo{
   position: absolute;
   top: 15px;
@@ -295,7 +299,7 @@ hr{
   margin-right: 0;
 }
 
-#bronze{
+.bronze{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -303,6 +307,10 @@ hr{
   margin-left: auto;
   margin-right: auto;
   /*max-width: 960px;*/
+}
+
+#bronze2{
+  max-width: 800px;
 }
 
 
@@ -383,6 +391,10 @@ h5{
     background-position: center center;
   }
 
+  #hero .btn{
+    margin-top: 30px;
+  }
+
   #date{
     position: relative;
   }
@@ -396,6 +408,7 @@ h5{
     position: relative;
     text-align: center;
     margin-bottom: 75px;
+    right: auto;
   }
 
   #logo a{
@@ -416,7 +429,7 @@ h5{
     text-align: center;
   }
 
-  #bronze, #bronze2{
+  .bronze{
     display: block;
   }
 }
