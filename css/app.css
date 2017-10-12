@@ -110,6 +110,8 @@ video {
 #logo img{
   width: 350px;
   height: auto;
+  margin-right: 30px;
+  margin-top: 15px;
 }
 
 #brand{
@@ -308,11 +310,6 @@ hr{
   margin-right: auto;
   /*max-width: 960px;*/
 }
-
-#bronze2{
-  max-width: 800px;
-}
-
 
 #silver img{
   width: 175px;
