@@ -195,7 +195,7 @@ h1{
 h2{
   background-color: white;
   color: #4fb167;
-  font-size: 20px;
+  font-size: 22px;
   padding: 10px 20px;
   font-weight: bold;
   display: inline-block;
@@ -248,7 +248,6 @@ h3{
 
 #schema{
   padding-right: 50px;
-  margin-bottom: 30px;
 }
 
 hr{
@@ -302,13 +301,8 @@ hr{
 }
 
 .bronze{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
-  /*max-width: 960px;*/
 }
 
 #silver img{
@@ -324,18 +318,15 @@ hr{
 #materiel img{
   width: 75px;
   height: auto;
-  margin-right: 15px;
 }
 
 #materiel img.large{
   width: 100px;
   height: auto;
-  margin-right: 15px;
 }
 
 #numbers{
   margin-top: 50px;
-  margin-bottom: 30px;
 }
 
 .number img{
