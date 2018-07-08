@@ -484,7 +484,10 @@ h5{
     text-align: center;
     margin-bottom: 75px;
     right: auto;
-    
+  }
+
+  #logo img{
+    margin: 0;
   }
 
   #logo a{
@@ -495,10 +498,11 @@ h5{
     position: relative;
     bottom: inherit;
     margin-right: 0;
+    text-align: center;
   }
 
   #date span{
-    font-size: 50px;
+    margin:0;
   }
 
   #who{
@@ -507,5 +511,13 @@ h5{
 
   .bronze{
     display: block;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 20px;
   }
 }
