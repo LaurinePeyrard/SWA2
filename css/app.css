@@ -270,7 +270,7 @@ h2{
 
 h3{
   color: #4fb167;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -346,6 +346,11 @@ hr{
 #partners h3{
   margin-bottom: 30px;
   color: #414141;
+  margin-top: 45px;
+}
+
+#partners h3:first-child{
+  margin-top: 0px;
 }
 
 #partners img{
@@ -366,7 +371,7 @@ hr{
 }
 
 
-#gold img{
+#partners .gold img{
   width: 150px;
   height: auto;
   margin-bottom: 50px;
@@ -374,29 +379,42 @@ hr{
   margin-right: 0;
 }
 
-.bronze{
+#partners .gold img.small{
+  width: 80px;
+}
+
+
+#partners .bronze{
   margin-left: auto;
   margin-right: auto;
 }
 
-#silver img{
-  width: 175px;
+#partners .silver img{
+  width: 120px;
   height: auto;
   margin-bottom: 50px;
 }
 
-#materiel{
-  margin-top: 50px;
+#partners .silver img.large{
+  width: 130px;
 }
 
-#materiel img{
+#partners .materiel img{
+  width: 95px;
+  height: auto;
+}
+
+#partners .materiel img.large{
+  width: 110px;
+}
+
+#partners .com img{
   width: 75px;
   height: auto;
 }
 
-#materiel img.large{
-  width: 100px;
-  height: auto;
+#partners .com img.large{
+  width: 95px;
 }
 
 #numbers{
